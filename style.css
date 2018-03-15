@@ -1,0 +1,33 @@
+
+/* This isnt working yet */
+h1 {text-align: center}
+
+/* This isnt working yet */
+body {
+  border: 5px;
+  border-color: gray;
+  
+  }
+
+
+
+
+img {
+    border: 5px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 20%;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+/* 
+<a href="paris.jpg">
+  <img src="paris.jpg" alt="Paris">
+</a> */
+
+ 
+  body {
+    background: linear-gradient(to right, rgb(255, 0, 234) , yellow);
+  }
