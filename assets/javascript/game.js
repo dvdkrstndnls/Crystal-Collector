@@ -14,6 +14,7 @@ var randomNumberVar;
 var computerChoice;
 var wins = 0;
 var losses = 0; 
+var userScore = 0;
 // var guessesLeft = 9;
 // var guessesSoFarVar = [];
 
@@ -28,10 +29,19 @@ var losses = 0;
 //    * The player will be shown a random number at the start of the game. // * The random number shown at the start of the game should be between 19 - 120.: MATH.RANDOM > ALERT. number array is 19 - 120
 // Created a simple "alert" to get our bearings.
 alert("here is your number");
-//    * When the player clicks on a crystal, it will add a specific amount of points to the player's total score:   ONKEYUP > RANDOM NUMBER FROM    var computerOptions 
-$("crystals").on("click", ".crystal-image", function() {
-//alert
-alert("way to click that crystal!")
+//    * When the player clicks on a crystal, 
+$("#crystals").on("click", ".crystal-image", function() {
+//test alert
+alert("way to click that crystal!");
+//(does this work>?????)  it will add a specific amount of points to the player's total score:   ONKEYUP > RANDOM NUMBER FROM    var computerOptions 
+function randomCharacter() {
+        var randomNumber = Math.floor(Math.random() * 
+            options.length);
+        computerChoice = options[randomNumber];
+        
+        console.log(computerChoice);
+    }
+
 });
 // console.log(options);
 //      * Your game will hide this amount until the player clicks a crystal: HIDE...... SHOW
