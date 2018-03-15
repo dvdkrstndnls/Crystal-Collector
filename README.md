@@ -1,7 +1,7 @@
 # Crystal-Collector
 A browser based guessing game similar to blackjack
 
-## Here is how the game will work
+## Here is how the game works
 There are four crystals displayed as buttons on the page. 
 
 The player will be shown a random number at the start of the game. 
@@ -24,6 +24,13 @@ The game shows the number of games the player wins and loses.
 
 ## Play
 Find the game at : https://dvdkrstndnls.github.io/Crystal-Collector/
+
+
+## Technologies
+HTML
+CSS
+Javscript
+jQuery
 
 
 

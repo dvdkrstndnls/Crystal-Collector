@@ -1,19 +1,39 @@
+
+
 // ### Option One: CrystalsCollector Game (Recommended)
 
 // ![Crystal Collector](Images/1-CrystalCollector.jpg)
 
 // 1. [Watch the demo](homework_demos/crystalsCollector_demo.mp4).
 
-// 2. The player will have to guess the answer, just like in Hangman. This time, though, the player will guess with numbers instead of letters. 
+
+//establlish array and variables
+var crystals = ["1", "2", "3", "4",];
+var userChoice = [];
+var randomNumberVar;
+var computerChoice;
+var wins = 0;
+var losses = 0; 
+// var guessesLeft = 9;
+// var guessesSoFarVar = [];
+
+
+// 2. The player will have to guess the answer, just like in Hangman. 
+//This time, though, the player will guess with numbers instead of letters. 
 
 // 3. Here's how the app works:
 
 //    * There will be four crystals displayed as buttons on the page. // * Each crystal should have a random hidden value between 1 - 12.
 
 //    * The player will be shown a random number at the start of the game. // * The random number shown at the start of the game should be between 19 - 120.: MATH.RANDOM > ALERT. number array is 19 - 120
-
+// Created a simple "alert" to get our bearings.
+alert("here is your number");
 //    * When the player clicks on a crystal, it will add a specific amount of points to the player's total score:   ONKEYUP > RANDOM NUMBER FROM    var computerOptions 
-
+$("crystals").on("click", ".crystal-image", function() {
+//alert
+alert("way to click that crystal!")
+});
+// console.log(options);
 //      * Your game will hide this amount until the player clicks a crystal: HIDE...... SHOW
 //      * When they do click one, update the player's score counter. var newScore.  Score = score + userChoice > ALERT.newScore
 
@@ -61,4 +81,3 @@
 
 // If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
 
-// **Good Luck!**
