@@ -8,6 +8,7 @@ h1 {
   font-family: 'Noto Sans', sans-serif;
   text-align: left;
   font-size: 1.75em;
+  
 }
 
 p {font-family: 'Noto Sans', sans-serif;}
@@ -19,6 +20,7 @@ padding: 10px;
 h2 {
   padding: 10px;
   font-family: 'Noto Sans', sans-serif;
+  text-decoration: underline;
 }
 /* 
 /* image borders */

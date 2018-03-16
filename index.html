@@ -17,13 +17,14 @@
 <br>  
 <br>  
 <br>  
-<h1><b>Instructions:</b></h1>
+<h2><b>Instructions:</b></h2>
 <br>
 <p>
+
+    <span><b><h1>Match this Score:</h1><h1 id="scoreToMatch"></h1></b></span> 
+<br>
   <ul>
   <li>-See the four crystals below?</li> 
-
-  <li>-You will be shown a random number at the start of the game.</li> 
   
   <li>-When you click on a crystal, it will add a specific amount of points to your total score: </li>
   
@@ -32,25 +33,28 @@
   <li>-You win if your total score matches the random number from the beginning of the game. </li>
   
   <li>-You lose if your score goes above the random number.</li>
-  <li>-The game restarts whenever you win or lose.</li> 
+  <li>-The game restarts whenever you win or lose, but keeps track of your wins and losses over time.</li> 
   </p>
 </ul>
 
   <div id="crystals">
     <ul>
-      <img class="crystal-image" src="assets/images/salt.jpg" alt="crystal 1" width=23%>  
-      <img class="crystal-image" src="assets/images/geode.jpg" alt="crystal 2" width=23%>
-      <img class="crystal-image" src="assets/images/fancy.jpeg" alt="crystal 3" width=23%>
-      <img class="crystal-image" src="assets/images/spray.jpg" alt="crystal 4" width=23%>
+      <img class="square" src="assets/images/salt.jpg" alt="crystal 1" width=23%>  
+      <img class="circle" src="assets/images/geode.jpg" alt="crystal 2" width=23%>
+      <img class="fancy" src="assets/images/fancy.jpeg" alt="crystal 3" width=23%>
+      <img class="jabba" src="assets/images/spray.jpg" alt="crystal 4" width=23%>
     </ul>
   </div>
 
   <br>  
   <BR>
   
-    <h2>Wins:</h2>
+    
  
-  <h2>Losses:</h2>
+
+  <h2>Wins:</h2><h2 id="wins"></h2>
+ 
+  <h2>Losses:</h2><h2 id="losses"></h2>
 
 <!-- Here we added a link to the jQuery library -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
