@@ -9,7 +9,7 @@
 $( document ).ready(function(){
     //    * The player will be shown a random number at the start of the game. // * The random number shown at the start of the game should be between 19 - 120.: MATH.RANDOM > ALERT. number array is 19 - 120
 // Created a simple "alert" to get our bearings.
-alert("See your number to Match Below");
+alert("See your number next to 'Match this Score'");
     // Computer generates random number for user to try to match
     var Random=Math.floor(Math.random()*120+19)
     
