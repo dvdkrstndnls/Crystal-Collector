@@ -11,7 +11,14 @@ h1 {
   
 }
 
-p {font-family: 'Noto Sans', sans-serif;}
+p {font-family: 'Noto Sans', sans-serif;
+  /* padding: 3px;
+  border: 5px solid #ddd;
+    border-radius: 8px; */
+    
+    /* width: 20%; */
+
+}
 
 ul {font-family: 'Noto Sans', sans-serif;
 padding: 10px;
@@ -20,13 +27,13 @@ padding: 10px;
 h2 {
   padding: 10px;
   font-family: 'Noto Sans', sans-serif;
-  text-decoration: underline;
+  text: bold;
 }
 /* 
 /* image borders */
 body {
   border: 5px;
-  border-color: gray; */  
+  border-color: gray;   
   padding: 20px;
   }
 

@@ -16,17 +16,13 @@
 <heading>///-- Crystal Collector --///</heading>
 <br>  
 <br>  
-<br>  
 <h2><b>Instructions:</b></h2>
-<br>
-<p>
 
-    <b><h1>Match this Score:</h1><h1 id="scoreToMatch"></h1></b> 
-<br>
+    
+
+<p>
   <ul>
-  <li>-See the four crystals below?</li> 
-  
-  <li>-When you click on a crystal, it will add a specific amount of points to your total score: </li>
+  <li>-See the four crystals below? When you click on a crystal, it will add a specific amount of points to your total score! </li>
   
   <li>-The game will <em>hide</em> this amount until you click a crystal. </li>
   
@@ -36,6 +32,17 @@
   <li>-The game restarts whenever you win or lose, but keeps track of your wins and losses over time.</li> 
   </p>
 </ul>
+
+<p>
+
+    <b><h1>Match this Score: <span id="scoreToMatch"> -</span></h1></b> 
+    </p>
+
+    <div>
+        <h1>Your Current Score:
+        <span id="totalScore">0
+        </h1>  
+      </div> 
 
   <div id="crystals">
     <ul>
@@ -49,12 +56,11 @@
   <br>  
   <BR>
   
-    
-  <h2>Your Current Score:</h2><h2> <id="userScore"></h2>
+   
 
-  <h2>Wins:</h2><h2 id="wins"></h2>
+  <h2>Wins: <span id="wins"> 0</span></h2>
  
-  <h2>Losses:</h2><h2 id="losses"></h2>
+  <h2>Losses: <span id="losses"> 0</span></h2>
 
 <!-- Here we added a link to the jQuery library -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

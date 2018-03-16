@@ -9,9 +9,9 @@
 $( document ).ready(function(){
     //    * The player will be shown a random number at the start of the game. // * The random number shown at the start of the game should be between 19 - 120.: MATH.RANDOM > ALERT. number array is 19 - 120
 // Created a simple "alert" to get our bearings.
-alert("See your number next to 'Match this Score'");
+// alert("See your number next to 'Match this Score'");
     // Computer generates random number for user to try to match
-    var Random=Math.floor(Math.random()*120+19)
+    var Random=Math.floor(Math.random()*101+19)
     
     // Display random number
     $('#scoreToMatch').text(Random);
@@ -49,7 +49,7 @@ var userScore = 0;
 $("#crystals").on("click", ".crystal-image", function() {
 //test alert
 // alert("way to click that crystal!");
-//(does this work>?????)  it will add a specific amount of points to the player's total score:   ONKEYUP > RANDOM NUMBER FROM    var computerOptions 
+// it will add a specific amount of points to the player's total score:   ONKEYUP > RANDOM NUMBER FROM    var computerOptions 
 function randomCharacter() {
         var randomNumber = Math.floor(Math.random() * 
             options.length);
