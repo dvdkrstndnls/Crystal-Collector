@@ -1,13 +1,16 @@
+
+
 heading {
     font-family: 'Noto Sans', sans-serif;
     font-size: 2.75em;
     text-align: center;
+    
 }
 h1 {
-  padding: 5px;
+  padding: 10px;
   font-family: 'Noto Sans', sans-serif;
   text-align: left;
-  font-size: 1.75em;
+  font-size: 1.5em;
   
 }
 
@@ -55,5 +58,11 @@ img:hover {
 
  /* gradient working */
   body {
-    background: linear-gradient(to right, rgb(255, 0, 234) , yellow);
+    background: linear-gradient(to right, rgb(255, 0, 234) , rgb(207, 207, 125));
   }
+
+
+footer {
+  background-color: rgb(184, 184, 184);
+  padding: 5px;
+}
